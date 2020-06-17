@@ -1,2 +1,1 @@
-def reverse_each_word(str)
-  str = 
+def reverse_each_word(statement
