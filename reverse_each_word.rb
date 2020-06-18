@@ -1,4 +1,4 @@
-def reverse_each_word_each(sentence)
+def reverse_each_word(sentence)
  array = sentence.split(" ")
  reversed_array = []
  array.each do|sentence|
@@ -7,7 +7,7 @@ def reverse_each_word_each(sentence)
  reversed_array.join(" ")
 end
 
-def reverse_each_word_collect(again)
+def reverse_each_word(again)
  array = again.split(" ")
  reversed_array = []
  array.collect do |again|
